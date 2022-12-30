@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+a{
+    text-decoration: none;
+  
+
+}
+
+.flexing{
+    border-radius: 5px;
+    box-shadow: 3px 6px  rgba(100, 100, 100, 0.01);
+    padding: 4px 8px;
+    border: 1px solid rgb(236, 236, 236);
+}
+
+.wallet-link{
+    display: flex;
+    justify-content: space-between;
+   padding: 10px 20px;
+   align-items: center;
+    margin-bottom: 50px;
+   color: white;
+   background-color: blue;
+}
+.wallet-link h2{
+    font-size: 18px;
+}
+
+.wallet-link button{
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: white;
+    color: blue;
+}
+
+/* .center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+} */
+
+.center .write{
+
+    margin-bottom: 40px;
+}
+.center .write h2{
+font-size: 18px;
+text-align: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.image img{
+    width: 40px;
+    height: 40px;
+}
+
+.hh h3{
+    font-size: 14px;
+    color: black;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    
+}
+
+footer .flexi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+footer .git{
+    display: flex;
+  
+}
+footer .git h4{
+    margin-left: 10px;
+}
+
+
+#out{
+    visibility: hidden;
+}
